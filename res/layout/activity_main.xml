@@ -1,0 +1,53 @@
+<!--
+   ~  THE BEER-WARE LICENSE (Revision 42):
+   ~  
+   ~  <dev@GabrielCastro.ca> wrote this app.
+   ~  As long as you retain this notice you can do whatever
+   ~  you want with this stuff. If we meet some day, and you
+   ~  think this stuff is worth it, you can buy me a beer in return
+   ~  -  Gab 2013
+   -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adview"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp" >
+
+        <TextView
+            android:id="@+id/lisence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/liscence"
+            android:typeface="monospace" />
+
+        <ToggleButton
+            android:id="@+id/toggle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.google.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:id="@+id/adview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ad_unit_id"
+        ads:loadAdOnCreate="true"
+        ads:testDevices="@string/test_devices" />
+
+</RelativeLayout>

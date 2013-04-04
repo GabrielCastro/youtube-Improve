@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   ~  THE BEER-WARE LICENSE (Revision 42):
+   ~  
+   ~  <dev@GabrielCastro.ca> wrote this app.
+   ~  As long as you retain this notice you can do whatever
+   ~  you want with this stuff. If we meet some day, and you
+   ~  think this stuff is worth it, you can buy me a beer in return
+   ~  -  Gab 2013
+   -->
+<resources>
+
+    <string name="app_name">Improve YouTube</string>
+   
+    <string name="test_devices"><!-- YOUR AD TEST DEVICES HERE --></string>
+    <string name="ad_unit_id"><!-- YOUR AD UNIT ID HERE --></string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="liscence"><b>THE BEER-WARE LICENSE (Revision 42):</b>\n\n
+&lt;dev@GabrielCastro.ca&gt; wrote this app. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return.\n
+&#8212;Gabriel Castro</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   ~  THE BEER-WARE LICENSE (Revision 42):
+   ~  
+   ~  <dev@GabrielCastro.ca> wrote this app.
+   ~  As long as you retain this notice you can do whatever
+   ~  you want with this stuff. If we meet some day, and you
+   ~  think this stuff is worth it, you can buy me a beer in return
+   ~  -  Gab 2013
+   -->
+<resources xmlns:tools="https://schemas.android.com/tools"
+           tools:ignore="TypographyDashes">
+           
+    <string name="ga_trackingId"><!-- Your analytics ID here --></string>
+
+    <!-- Debug -->
+    <bool name="ga_debug">false</bool>
+
+    <!-- The dispatch period in seconds -->
+    <integer name="ga_dispatchPeriod">900</integer>
+
+    <!--Remove last octet of ip address-->
+    <bool name="ga_anonymizeIp">false</bool>
+
+    <!--Enable automatic activity tracking-->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!--Enable automatic exception tracking-->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <!-- Activities -->
+    <string name="ca.Gabriel.Castro.YouTubeImprove">main</string>
+
+
+</resources>

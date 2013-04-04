@@ -1,6 +1,9 @@
 # built application files
-*.apk
+#*.apk
 *.ap_
+
+#private stuff
+private_strings.xml
 
 # files for the dex VM
 *.dex
@@ -18,3 +21,4 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+.settings
